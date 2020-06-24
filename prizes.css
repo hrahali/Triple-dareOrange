@@ -1,0 +1,197 @@
+:root {
+  --yellow: #eef13f;
+  --orange: hsl(13, 99%, 60%);
+  --green: #80b238;
+  --blue: #80c1d6;
+}
+
+/* Header Audrey */
+body {
+  margin: 0;
+  font-family: "Atma", cursive;
+  background: #80b238;
+  height: 100vh;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.nav {
+  background: #80b238;
+  color: #80b238;
+  opacity: 0.8;
+  position: fixed;
+  width: 100%;
+  height: 9%;
+  top: 0;
+  z-index: 100;
+}
+
+ul {
+  display: flex;
+  justify-content: space-around;
+}
+
+blockquote {
+  margin: auto;
+  padding: 7rem 0 0;
+  text-align: center;
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+  background-image: url("/img/blue-splash.png");
+  background-repeat: no-repeat;
+  background-color: #80c1d6;
+}
+
+blockquote img {
+  max-width: 620px;
+  height: auto;
+}
+
+li:nth-child(odd):hover {
+  transform: rotate(-6deg) scale(1.5);
+  transition: 0.6s;
+}
+
+li:nth-child(even):hover {
+  transform: rotate(6deg) scale(1.5);
+  transition: 0.6s;
+}
+
+li:last-child {
+  font-weight: bold;
+}
+
+a {
+  font-size: 30px;
+  color: white;
+  font-family: "Atma", cursive;
+  text-decoration: none;
+  font-variant: small-caps;
+}
+
+h1 {
+  font-size: 60px;
+  color: hsl(13, 99%, 60%);
+  font-family: "Atma", cursive;
+  text-shadow: 5px 5px #fff;
+  text-align: center;
+}
+/* Header Audrey */
+
+/* Main Glenn */
+main {
+  background-color: #80b238;
+}
+
+div.damier {
+  height: 3rem;
+  width: calc(100% - 5rem);
+  margin: auto;
+  max-width: 55rem;
+  display: block;
+  background-image: linear-gradient(
+      to right,
+      var(--yellow) 50%,
+      transparent 50%
+    ),
+    linear-gradient(to right, var(--yellow) 50%, transparent 50%);
+  background-repeat: repeat-x;
+  background-size: 3rem 1.5rem;
+  background-position: left top, 1.5rem bottom;
+}
+
+h2 {
+  text-align: center;
+  color: white;
+  font-family: "Atma", cursive;
+}
+
+li {
+  color: #80b238;
+}
+.grid {
+  display: grid;
+  max-width: 50rem;
+  margin: 5rem auto;
+  grid-template-columns: 450px 450px;
+}
+
+.spacecamp,
+.keyboard,
+.heatzone,
+.tv {
+  background: #80b238;
+  padding: 1rem;
+  border-style: dashed;
+  border-color: #eef13f;
+  text-align: center;
+}
+.rotate:hover {
+  transform: rotate(360deg);
+  transition: 0.6s;
+}
+/*Footer Hani*/
+h1,
+.h3footer {
+  text-align: center;
+  font-size: 60px;
+  font-style: italic;
+  letter-spacing: -5px;
+}
+
+footer {
+  background-color: #eef13f;
+}
+
+.h3footer {
+  color: black;
+  text-shadow: 5px 5px #808080;
+  font-variant: small-caps;
+  font-family: "Atma", cursive;
+}
+
+h3 {
+  text-align: center;
+  font-family: "Atma", cursive;
+  font-weight: bold;
+}
+
+/* Footer Hani */
+footer {
+  text-align: center;
+  font-family: "Atma", cursive;
+  background: #eef13f;
+  max-width: 60rem;
+  height: 100vh;
+}
+
+footer h2 {
+  font-family: "Bangers", cursive;
+}
+
+footer img.kn {
+  width: 150px;
+  margin-top: -4rem;
+}
+
+/*footer*/
+footer {
+  text-align: center;
+  font-family: "Atma", cursive;
+  background: #eef13f;
+  max-width: 60rem;
+  height: 100vh;
+}
+
+footer h2 {
+  font-family: "Bangers", cursive;
+}
+
+footer img.kn {
+  width: 150px;
+  margin-top: -4rem;
+}

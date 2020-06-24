@@ -1,0 +1,172 @@
+:root {
+  --yellow: #eef13f;
+  --orange: hsl(13, 99%, 60%);
+  --green: #80b238;
+  --blue: #80c1d6;
+}
+
+/* Header Audrey */
+body {
+  margin: 0;
+  font-family: "Atma", cursive;
+  background: #eef13f;
+  height: 100vh;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.nav {
+  background: #80b238;
+  color: #80b238;
+  opacity: 0.8;
+  position: fixed;
+  width: 100%;
+  height: 9%;
+  top: 0;
+  z-index: 100;
+}
+
+ul {
+  display: flex;
+  justify-content: space-around;
+}
+
+blockquote {
+  margin: auto;
+  padding: 7rem 0 0;
+  text-align: center;
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+  background-image: url("/img/blue-splash.png");
+  background-repeat: no-repeat;
+  background-color: #80c1d6;
+}
+
+blockquote img {
+  max-width: 620px;
+  height: auto;
+}
+
+li:nth-child(odd):hover {
+  transform: rotate(-6deg) scale(1.5);
+  transition: 0.6s;
+}
+
+li:nth-child(even):hover {
+  transform: rotate(6deg) scale(1.5);
+  transition: 0.6s;
+}
+
+li:last-child {
+  font-weight: bold;
+}
+
+a {
+  font-size: 30px;
+  color: white;
+  font-family: "Atma", cursive;
+  text-decoration: none;
+  font-variant: small-caps;
+}
+
+h1 {
+  font-size: 60px;
+  color: hsl(13, 99%, 60%);
+  font-family: "Atma", cursive;
+  text-shadow: 5px 5px #fff;
+  text-align: center;
+  margin-bottom: 0;
+}
+/* Header Audrey */
+
+/* Main Théo */
+main {
+  background-color: var(--orange);
+  color: white;
+  font-family: Atma, sans-serif;
+}
+
+section {
+  border-top: 0.5em solid rgba(0, 0, 0, 0.06);
+}
+
+h2 {
+  text-align: center;
+  font-size: 4rem;
+  text-transform: uppercase;
+  text-shadow: 6px 6px 0 rgba(0, 0, 0, 0.2);
+}
+
+div.damier {
+  height: 3rem;
+  width: calc(100% - 5rem);
+  margin: auto;
+  max-width: 55rem;
+  display: block;
+  background-image: linear-gradient(
+      to right,
+      var(--yellow) 50%,
+      transparent 50%
+    ),
+    linear-gradient(to right, var(--yellow) 50%, transparent 50%);
+  background-repeat: repeat-x;
+  background-size: 3rem 1.5rem;
+  background-position: left top, 1.5rem bottom;
+}
+
+.navmain {
+  margin: auto;
+  max-width: 60rem;
+  width: calc(100% - 3rem);
+  border-bottom: 0.5em solid rgba(0, 0, 0, 0.06);
+  padding: 4rem 0;
+}
+
+.articlemain {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
+  gap: 1.5rem;
+  margin: auto;
+  max-width: 60rem;
+  width: calc(100% - 3rem);
+}
+
+div.card {
+  text-align: center;
+  background-color: var(--green);
+  border-radius: 1.5rem;
+  padding: 1rem;
+  transition: 0.5s;
+  font-size: 1.5rem;
+  letter-spacing: 0.1rem;
+}
+
+div.card:hover {
+  background-color: var(--yellow);
+  color: var(--orange);
+}
+/* Main Théo */
+/* Footer Hani */
+
+footer {
+  text-align: center;
+  font-family: "Atma", cursive;
+  background: #eef13f;
+  max-width: 60rem;
+  height: 100vh;
+}
+
+footer h2 {
+  font-family: "Bangers", cursive;
+}
+
+footer img.kn {
+  width: 150px;
+  margin-top: -4rem;
+}
+
+/* Footer Hani */
